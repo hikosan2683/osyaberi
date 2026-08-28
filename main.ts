@@ -18,6 +18,7 @@ namespace 話すロボット {
     export function speakText (text: string) {
                 // ★文字を送る前に自動で初期化！
         serial.redirect(SerialPin.P0, SerialPin.P1, BaudRate.BaudRate9600)
+        basic.pause(1000)
         serial.writeLine(text) // 入力された文字をそのまま相手に送る
     }
 
