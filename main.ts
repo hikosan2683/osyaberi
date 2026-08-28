@@ -13,5 +13,10 @@ namespace 話すロボット {
         basic.pause(1000)
         serial.writeLine("?")
     }
+    // ★★★文字を送る ★★★
+    //% block="%text と話す"
+    export function speakText (text: string) {
+        serial.writeLine(text) // 入力された文字をそのまま相手に送る
+    }
 
 }
