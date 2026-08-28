@@ -1,4 +1,4 @@
-//% color="#E74C3C" icon="f118"
+//% color="#222222" icon="\uf02"
 namespace 話すロボット {
 
     // ② 関数の前に「export」を付け、上に「//% block」と書くのがブロックにするおまじない
